@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakePetActivity">
+
+    <EditText
+        android:id="@+id/addPetEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:elegantTextHeight="true"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textColorHint="#99FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioPetSelected"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:checkedButton="@id/squirrelRadioButton"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/addPetButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addPetEditText">
+
+
+        <RadioButton
+            android:id="@+id/squirrelRadioButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/transparent"
+            android:backgroundTintMode="src_atop"
+            android:background="@drawable/squirrel__2_"
+            android:button="@null"
+            android:tag="@string/squirrel" />
+
+        <RadioButton
+            android:id="@+id/foxRadioButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/unselected"
+            android:backgroundTintMode="src_atop"
+            android:background="@drawable/fox_tile__2_"
+            android:button="@null"
+            android:tag="@string/fox" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addPetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Create Pet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioPetSelected" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

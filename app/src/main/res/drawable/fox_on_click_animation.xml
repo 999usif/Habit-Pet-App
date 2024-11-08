@@ -1,0 +1,14 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/fox_tile__31_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__32_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__33_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__34_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__35_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__36_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__37_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__38_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__39_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__40_" android:duration="100" />
+    <item android:drawable="@drawable/fox_tile__41_" android:duration="100" />
+</animation-list>

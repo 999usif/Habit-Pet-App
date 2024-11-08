@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="8sp">
+
+    <TextView
+        android:id="@+id/taskNameTaskListItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:lines="2"
+        android:text="task name"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/taskListItemRemoveTask"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/taskListItemRemoveTask"
+        android:layout_width="36sp"
+        android:layout_height="36sp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/taskListItemCompleteTask"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delete_cross" />
+
+    <ImageView
+        android:id="@+id/taskListItemCompleteTask"
+        android:layout_width="36sp"
+        android:layout_height="36sp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty_check_mark" />
+
+    <TextView
+        android:id="@+id/taskTimeTaskListItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="task time"
+        android:textAlignment="viewStart"
+        android:textColor="#80FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/taskListItemRemoveTask"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskNameTaskListItem" />
+</androidx.constraintlayout.widget.ConstraintLayout>

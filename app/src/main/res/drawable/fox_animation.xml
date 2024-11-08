@@ -1,0 +1,9 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/fox_tile__2_" android:duration="200" />
+    <item android:drawable="@drawable/fox_tile__3_" android:duration="200" />
+    <item android:drawable="@drawable/fox_tile__4_" android:duration="200" />
+    <item android:drawable="@drawable/fox_tile__5_" android:duration="200" />
+    <item android:drawable="@drawable/fox_tile__6_" android:duration="200" />
+
+</animation-list>

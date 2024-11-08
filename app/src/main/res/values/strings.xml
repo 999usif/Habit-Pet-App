@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Don\'t Kill Your Pet</string>
+    <string name="stat">Pet Stats</string>
+    <string name="stat_health">Health</string>
+    <string name="stat_food">Food</string>
+    <string name="stat_clean">Clean</string>
+    <string name="stat_love">Love</string>
+    <!-- Pet types -->
+    <string name="fox">Fox</string>
+    <string name="squirrel">Squirrel</string>
+    <!-- Alert errors -->
+    <string name="noTaskTitle">The task needs a title</string>
+    <string name="noTaskDescription">The task needs a description</string>
+    <!-- Notification messages -->
+    <string name="petStatsLowNotificationTitle">Help</string>
+    <string name="petStatsLowNotificationText">Your pet needs help</string>
+    <!-- Notification parameters -->
+    <string name="notificationBrodcastChannelID">taskChannel</string>
+    <string name="notificationChannelID">lowStatChannel</string>
+
+    <string name="complete">Complete</string>
+    <string name="remove">Remove</string>
+    <string name="pet_image_content_desc">The images of the correct pet should be dynamically inserted into this view.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
